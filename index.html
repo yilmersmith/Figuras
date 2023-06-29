@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras - DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section>
+        <div class="cont-botones">
+            <h2>INTERACCIONES</h2>
+            <button onclick="circulo()">CIRCULO</button>
+            <button onclick="rectangulo()">RECTANGULO</button>
+            <button onclick="triangulo()">TRIANGULO</button>
+            <button onclick="giro()">GIRAR</button>
+            <button onclick="arriba()">ARRIBA</button>
+            <button onclick="abajo()">ABAJO</button>
+            <button onclick="izquierda()">IZQUIERDA</button>
+            <button onclick="derecha()">DERECHA</button>
+            <button onclick="oculto()">OCULTAR</button>
+            <button onclick="gif()">GIF</button>
+            <button onclick="degradado()">DEGRADADO</button>
+            <button onclick="panel()">PANEL LATERAL</button>
+            <button onclick="superior()">PANEL SUPERIOR</button>
+        </div>
+        <div class="cont-figura">
+            <h2>FIGURA</h2>
+            <div id="Figuras" class=""></div>
+        </div>
+    </section>
+    <div class="panelIZQ">
+
+        <a href="#" class="close" onclick="panel()">X</a>
+
+        <h3>MENÚ PRINCIPAL</h3>
+        <UL>
+            <a href="#">INICIO</a>
+            <a href="#">NOSOTROS</a>
+            <a href="#">PRODUCTOS</a>
+            <a href="#">CONTACTO</a>
+        </UL>
+    </div>
+
+    <div class="panelSUP" >
+        <a href="#" class="close" onclick="superior()">X</a>
+        <h3>MENÚ SUPERIOR</h3>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
